@@ -1155,6 +1155,16 @@ q {
     visibility: hidden;
 }
 
+
+/*
+ * Fix white-on-white
+ */
+@media print {
+    .color-white {
+        color: #CCC;
+    }
+}
+
 /*
  * Hide from both screenreaders and browsers, but only for non-print
  */
